@@ -18,6 +18,10 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
   const env = loadEnv(mode, process.cwd());
   return {
     base: env.VITE_BASE_PATH,
+    server:{
+      port: 3005,
+      open: true,
+    },
     plugins: [
       vue(),
       AutoImport({
