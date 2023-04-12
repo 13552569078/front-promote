@@ -1,0 +1,20 @@
+.common-layout,.layout-wrap {
+    height: 100%;
+}
+
+// header
+.layout-header {
+    background-color: #647391;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+// layout-menu
+.layout-menu {
+    height: 100%;
+    border-right: 1px solid #9EAECD;
+}

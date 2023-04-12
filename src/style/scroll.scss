@@ -1,0 +1,27 @@
+/* 滚动条样式美化 */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0,0,0,0.4);;
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #f6f6f6;
+  }
+  
